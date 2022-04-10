@@ -23,7 +23,6 @@ body {
   color: black;
 }
 
-/* search box */
 .search {
   display: flex;
   align-items: center;
@@ -46,14 +45,14 @@ button {
 }
 
 /* search box */
-input.search-bar {
+input.searchBar {
   border: none;
   outline: none;
   padding: 0.6em 1em;
   border-radius: 28px;
   background: #7c7c7c2c;
   color: black;
-  font-family: inherit;
+  font-family: "Bitter", serif;
   font-size: 125%;
 }
 
@@ -90,11 +89,11 @@ h2.city {
 }
 
 .High {
-  width: 50%;
+  width: 10%;
   float: right;
 }
 
 .Low {
-  width: 50%;
+  width: 0%;
   float: left;
 }
