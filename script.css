@@ -42,6 +42,7 @@ button {
   color: black;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-size: 100%;
 }
 
 /* search box */
@@ -54,7 +55,6 @@ input.search-bar {
   color: black;
   font-family: inherit;
   font-size: 125%;
-  width: calc(100% - 80px);
 }
 
 button:hover {
@@ -64,57 +64,37 @@ button:hover {
   color: whitesmoke;
 }
 
-h1.temp {
-  margin: 0;
-  margin-bottom: 0.6em;
-}
-
-.description {
-  text-transform: capitalize;
-  margin-left: 8px;
-  text-align: center;
-}
-
-.weather.loading {
-  visibility: hidden;
-  max-height: 20px;
-  position: relative;
-}
-
-.weather.loading:after {
-  visibility: visible;
-  content: "Loading...";
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 20px;
-}
-
-.flex {
+h2.city {
+  margin: 10;
+  margin-bottom: 12px;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
-.flex1 {
+.currentDate {
   display: flex;
-  align-items: center;
+  margin: 11px;
+  justify-content: center;
 }
 
-.flex2 {
+.temp {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 25px;
 }
 
-.flex3 {
+.weatherCondition {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 20px;
 }
 
-.icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.High {
   width: 50%;
+  float: right;
+}
+
+.Low {
+  width: 50%;
+  float: left;
 }
