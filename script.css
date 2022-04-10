@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Bitter", serif;
+  background: #222;
+  background: url("sunday.png") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 120%;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+/* search box */
+.search {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 45%;
+  border: none;
+  height: 50px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2c;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+/* search box */
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.6em 1em;
+  border-radius: 28px;
+  background: #7c7c7c2c;
+  color: black;
+  font-family: inherit;
+  font-size: 125%;
+  width: calc(100% - 80px);
+}
+
+button:hover {
+  background: #7c7c7c6d;
+  cursor: pointer;
+  outline: none;
+  color: whitesmoke;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.6em;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex1 {
+  display: flex;
+  align-items: center;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
