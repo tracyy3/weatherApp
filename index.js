@@ -52,6 +52,3 @@ let weather = {
 document.querySelector("button").addEventListener("click", function () {
   weather.searchFunction();
 });
-
-// zipcode default on page load
-weather.getCoords(28217);
